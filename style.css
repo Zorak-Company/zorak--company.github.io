@@ -26,3 +26,20 @@ h1{font-size:clamp(48px,7vw,88px);line-height:.98;margin:0 0 25px;letter-spacing
 .contact{padding:90px 7%;background:var(--accent);display:flex;justify-content:space-between;align-items:center;gap:40px}.contact .eyebrow{color:#181a1d}.contact p:not(.eyebrow){max-width:500px;line-height:1.7}.phone-list{display:flex;flex-direction:column;gap:12px}.phone-list a{font-size:25px;font-weight:800;color:#111;text-decoration:none;border-bottom:2px solid #111;padding-bottom:5px}
 footer{background:#090a0c;color:#777;padding:35px 7%;display:flex;justify-content:space-between;align-items:center;font-size:12px}footer .logo{font-size:18px}
 @media(max-width:800px){nav{display:none}.hero{min-height:600px}.steel-art{opacity:.2;width:100%;right:-20%}.about{grid-template-columns:1fr;gap:30px}.cards{grid-template-columns:1fr}.project-grid{grid-template-columns:1fr}.project{height:240px}.contact{flex-direction:column;align-items:flex-start}.phone-list a{font-size:20px}footer{flex-direction:column;gap:12px;align-items:flex-start}}
+.project {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.project span {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.project img {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+}
